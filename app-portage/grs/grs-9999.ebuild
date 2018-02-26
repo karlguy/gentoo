@@ -28,6 +28,7 @@ IUSE="server"
 DEPEND=""
 RDEPEND="
 	sys-apps/portage
+	dev-libs/libcgroup
 	server? (
 		app-arch/tar[xattr]
 		app-crypt/md5deep
